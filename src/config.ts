@@ -1,18 +1,18 @@
 export const SITE = {
   website: "https://lmichaudel.github.io/", // replace this with your deployed domain
   author: "Lucas Michaudel",
-  profile: "https://lmichaudel.github.io",
-  desc: "A minimal, responsive and SEO-friendly Astro blog theme.",
-  title: "AstroPaper",
+  profile: "",
+  desc: "Personnal blog about my projects!",
+  title: "lmichaudel's blog",
   ogImage: "astropaper-og.jpg",
   lightAndDarkMode: true,
   postPerIndex: 4,
   postPerPage: 4,
   scheduledPostMargin: 15 * 60 * 1000, // 15 minutes
-  showArchives: true,
+  showArchives: false,
   showBackButton: true, // show back button in post detail
   editPost: {
-    enabled: true,
+    enabled: false,
     text: "Edit page",
     url: "https://github.com/satnaing/astro-paper/edit/main/",
   },
